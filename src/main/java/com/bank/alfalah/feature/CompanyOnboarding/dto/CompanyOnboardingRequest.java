@@ -11,7 +11,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @RequiredArgsConstructor
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
-public class CompaynOnboardingRequest {
+public class CompanyOnboardingRequest {
     Long companyId;                  // Unique identifier for each company
     String companyName;              // Name of the company
     String industry;                 // Industry the company belongs to
